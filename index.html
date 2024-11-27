@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup: Calculadora de Huella de Carbono</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de Huella de Carbono</h1>
+    <p>Evalúa el impacto de tu consumo energético y descubre cómo reducirlo.</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Ingresa tus datos</h2>
+      <form>
+        <label for="hoursInduction">Horas de uso de cocina de inducción (por día):</label>
+        <input type="number" id="hoursInduction" placeholder="Ejemplo: 2" disabled>
+
+        <label for="hoursComputer">Horas de uso de computadora (por día):</label>
+        <input type="number" id="hoursComputer" placeholder="Ejemplo: 5" disabled>
+
+        <label for="hoursPhone">Horas de uso de teléfono (por día):</label>
+        <input type="number" id="hoursPhone" placeholder="Ejemplo: 3" disabled>
+
+        <button type="button" disabled>Calcular Huella</button>
+      </form>
+    </section>
+
+    <section class="results-section">
+      <h2>Resultados</h2>
+      <div id="results">
+        <p>Aquí aparecerán tus emisiones de CO₂.</p>
+        <p><em>(Simulación para mockup, esta página no tiene un formulario funcional actualmente.)</em></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desarrollado para un futuro más sostenible 🌍</p>
+  </footer>
+</body>
+</html>
